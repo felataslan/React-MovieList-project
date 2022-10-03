@@ -45,35 +45,46 @@ class App extends React.Component {
                     "overview": "When a mafia accountant is taken hostage on his beat, a police officer – wracked by guilt from a prior stint as a negotiator – must negotiate the standoff, even as his own family is held captive by the mob.",
                     "id": 13
                 }
-            ]
+            ],
+            searchQuery: "",
         }
 
-        deleteMovie=(movie)=>{
-           const newMovieList=this.state.movies.filter(
-            m => m.id !==movie.id
-           ); 
-           this.setState(state=>({
-            movies:newMovieList
+    deleteMovie = (movie) => {
+        const newMovieList = this.state.movies.filter(
+            m => m.id !== movie.id
+        );
+        this.setState(state => ({
+            movies: newMovieList
         }))
-        }
-        //    this.setState({
-        //     movies:newMovieList
-        // })
-        // }
+    }
+    //    this.setState({
+    //     movies:newMovieList
+    // })
+    // }
+    searchMovie = (event) => {
+        // console.log(event.target.value)
+        this.setState({searchQuery: event.target.value})
+
+    }
 
     render() {
+        let filteredMovies= this.state.movies.filter(
+            (movie)=>{
+                return movie.name.toLowerCase().indexOf(this.state.searchQuery.toLowerCase())!==-1
+            }
+        )
         return (
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <SearchBar />
+                        <SearchBar searchMovieProp={this.searchMovie} />
                     </div>
                 </div>
                 <MovieList
-                    movies={this.state.movies}
+                    movies={filteredMovies}
                     deleteMovieProp={this.deleteMovie}
-/>
-                
+                />
+
             </div>
             // <h1>{this.state.movies[4].name}</h1>
         )
