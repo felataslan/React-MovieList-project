@@ -52,10 +52,14 @@ class App extends React.Component {
            const newMovieList=this.state.movies.filter(
             m => m.id !==movie.id
            ); 
-           this.setState({
+           this.setState(state=>({
             movies:newMovieList
-        })
+        }))
         }
+        //    this.setState({
+        //     movies:newMovieList
+        // })
+        // }
 
     render() {
         return (
