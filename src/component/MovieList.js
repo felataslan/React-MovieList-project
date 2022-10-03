@@ -2,6 +2,10 @@ import React from "react";
 
 const MovieList =(props)=> {
 
+//    const handleClick =()=>{
+//     console.log("buton çalıştı")
+
+//    }
 
     return (
         <div className="row">
@@ -14,7 +18,8 @@ const MovieList =(props)=> {
                         <h5 className="card-title">{movie.name}</h5>
                         <p className="card-text">{movie.overview}</p>
                         <div className="d-flex justify-content-between align-items-center">
-                            <button type="button" className="btn btn-md btn-outline-danger">Delete</button>
+                            <button onClick={()=>
+                                props.deleteMovieProp(movie)}  type="button" className="btn btn-md btn-outline-danger">Delete</button>
                             <h2><span className="badge bg-primary">{movie.rating}</span>
                             </h2>
                         </div>
