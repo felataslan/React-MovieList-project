@@ -94,7 +94,7 @@ class App extends React.Component {
                     movies={filteredMovies}
                     deleteMovieProp={this.deleteMovie}
                 />
-
+                
             </div>
             // <h1>{this.state.movies[4].name}</h1>
         )
