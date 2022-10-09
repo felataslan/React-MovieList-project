@@ -54,18 +54,19 @@ class App extends React.Component {
         this.getMovies();
     }
 
-        // EDIT MOVIE
-        editMovie = async (id, updatedMovie) => {
+    // EDIT MOVIE
+    editMovie = async (id, updatedMovie) => {
             await axios.put(`http://localhost:3002/movies/${id}`, updatedMovie)
             this.getMovies();
         }
 
     render() {
-
+        //Yeni eklenen Filmlerin Filtrelenmesi ve yeni eklenen filmin başa eklenmesi
         let filteredMovies = this.state.movies.filter(
             (movie) => {
                 return movie.name.toLowerCase().indexOf(this.state.searchQuery.toLowerCase()) !== -1
             }
+            // sort fonksiyonu ile yeni eklenen filmin en başa eklenmesi
         ).sort((a, b) => {
             return a.id < b.id ? 1 : a.id > b.id ? -1 : 0;
         });

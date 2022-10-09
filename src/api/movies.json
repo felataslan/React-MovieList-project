@@ -34,6 +34,27 @@
       "imageURL": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/4hne3v6jN4MlCnhSkxOW7YspJhr.jpg",
       "overview": "When a mafia accountant is taken hostage on his beat, a police officer – wracked by guilt from a prior stint as a negotiator – must negotiate the standoff, even as his own family is held captive by the mob.",
       "id": 13
+    },
+    {
+      "name": "Terminal",
+      "rating": "8.9",
+      "overview": "Victor Navorski Amerika yolundayken ülkesinde askeri darbe olması üzerine New York'un Uluslararası Havaalanında mahsur kalıyor. Pasaportu artık geçersiz olduğu için Amerika'ya girme hakkını yitirmiş durumda olan Victor ne ülkesine geri dönebiliyor ne de Amerikaya girebiliyor. ülkesindeki savaş bitinceye kadar havaalanı terminalinin transit yolcular salonunda beklemek zorunda kaldığında başına gelmeyen kalmıyor.",
+      "imageURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vRYbjHs129MARMq1VDbnk9Jboen.jpg",
+      "id": 14
+    },
+    {
+      "name": "Lucy",
+      "rating": "8.9",
+      "overview": "Tayvan'ın başkenti Taipei'nin suça batmış yeraltı dünyası sokak çeteleri, mafya ve işbirlikçi polisler tarafından yönetilirken en aktif ticaret, uyuşturucu ağı üzerinden yürütülür. Eğlenmeyi seven, sıradan bir genç kadın olan Lucy Miller (Scarlett Johansson), birkaç gece beraber takıldığı Richard (Pilou Asbæk) yüzünden kendisini bir anda en azılı uyuşturucu şebekelerinin birinin içine düşmüş bulur. Vücudunun içine kurye olması için yerleştirilen yeni bir tür sentetik uyuşturucu, beklenmedik bir şekilde Lucy'nin vücuduna nüfuz edip kanına karışmaya başlayınca mucizevi bir durumla yüzleşir. Lucy'in damarlarında dolaşan kimyasallar, ona insanüstü yetenekler kazandırmıştır! Artık akıl okuma, telekinezi ve acıyı hissetmeme gibi güçlere sahip olan genç kadın beyni tüm algı kapılarını sonuna kadar açacaktır.",
+      "imageURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pNKnPy0nHeFsAq2QGS8UGhZCjDk.jpg",
+      "id": 15
+    },
+    {
+      "name": "Piyanist",
+      "rating": "6.9",
+      "imageURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8gdOy6vd1lK2KyakZroETXyB4re.jpg",
+      "overview": "Wladyslaw Szpilman, Polonyalı başarılı bir piyanisttir. İkinci Dünya Savaşı'nda Almanların Polonya'yı işgal etmesiyle hayatı kâbusa döner. Musevi olduğu halde şans eseri toplama kamplarına gitmekten kurtulur ve Varşova'nın gettolarında yaşamaya başlar. Acı ve sefalet dolu yaşamı, bir gün bir Alman subayının ona yardıma gelmesi ve onu oradan kurtarmasıyla değişir.",
+      "id": 16
     }
   ]
 }
