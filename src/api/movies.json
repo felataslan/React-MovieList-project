@@ -55,6 +55,20 @@
       "imageURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8gdOy6vd1lK2KyakZroETXyB4re.jpg",
       "overview": "Wladyslaw Szpilman, Polonyalı başarılı bir piyanisttir. İkinci Dünya Savaşı'nda Almanların Polonya'yı işgal etmesiyle hayatı kâbusa döner. Musevi olduğu halde şans eseri toplama kamplarına gitmekten kurtulur ve Varşova'nın gettolarında yaşamaya başlar. Acı ve sefalet dolu yaşamı, bir gün bir Alman subayının ona yardıma gelmesi ve onu oradan kurtarmasıyla değişir.",
       "id": 16
+    },
+    {
+      "name": "Ghajini",
+      "rating": "9.0",
+      "imageURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cPLzHxPFRjzNvoyncdtDGBAxjp.jpg",
+      "overview": "Sanjay Singhania Hindistanın en büyük iş adamlarından biridir.Bir iş gezisi dönüşünde evinde nişanlısı öldürülür ve kendisi de ağır yaralı olarak kurtulur. Ama başına demir sopayla darbeler alan Sanjay kısa süreli hafıza kaybına uğrar ve Sanjay nişanlısını öldüren Ghajini'nin peşine düşer.",
+      "id": 17
+    },
+    {
+      "name": "Pk",
+      "rating": "7.7",
+      "imageURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wGAMZ5DgfqAGsJ4EzXlm23vCGb1.jpg",
+      "overview": "P.K. bi şehirdeki yabancının düşünceler komedisidir. P.K.(Aamir Khan) Daha önce kimsenin sormadığı sorular sorar. Bunlar masum, çocuk gibi sorulardır ama cevapları enteresandır.P.K.'in masum gözlerini gören insanlar kendi monoton hayatlarını gözden geçirirler.P.K.'in sadık arkadaşları ve dostları olur. Kırık kalpleri düzeltir öfkeleri dindirir. P.K.'in çocuksu merakı kendisi ve milyonlarca insan için manevi bir yolculuğa dönüşür.Film karmaşık felsefelerin iddialı ve benzersiz yönlerini orijinal bi şekilde ortaya koyuyor. Ayrıca basit, kahkaha dolu, insani bir aşk masalı da süregidiyor. Sonuç olarak ayrı dünyalardan gelen yabancılar arasında dostluk destanı işlenmiş diyebiliriz.",
+      "id": 18
     }
   ]
 }
